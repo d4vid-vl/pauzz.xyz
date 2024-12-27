@@ -24,6 +24,29 @@
   margin-left: 30px;
   vertical-align: middle;
 }
+.navbar button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .bar {
+    display:none;
+  }
+  .navbar button {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar button {
+    display:none;
+  }
+}
 
 img {
   width: 70px;

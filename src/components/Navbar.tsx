@@ -1,6 +1,7 @@
 import '../styles/Navbar.css'
 import pfp from '../assets/pfp.png'
 import { Link } from 'react-router-dom'
+import ReorderIcon from '@mui/icons-material/Reorder'
 
 export const Navbar = () => {
  return (
@@ -15,6 +16,9 @@ export const Navbar = () => {
       <Link to="/portfolio" className="bar">Portfolio</Link>
       <Link to="/socials" className="bar">Socials</Link>
       <Link to="/donate" className="bar">Donate me!</Link>
+      <button>
+        <ReorderIcon/>
+      </button>
     </nav>
   </header>
  ) 
