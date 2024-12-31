@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import Donate from './pages/Donate'
+import ErrorPage from './pages/Error'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<About/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
             <Route path="/donate" element={<Donate/>}/>
+            <Route path="*" element={<ErrorPage/>}/>
           </Routes>
         </div>
       </Router>
