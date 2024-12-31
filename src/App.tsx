@@ -4,7 +4,6 @@ import { Footer } from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
-import Socials from './pages/Socials'
 import Donate from './pages/Donate'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
@@ -18,7 +17,6 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
-            <Route path="/socials" element={<Socials/>}/>
             <Route path="/donate" element={<Donate/>}/>
           </Routes>
         </div>

@@ -21,7 +21,6 @@ export const Navbar = () => {
           <Link to="/" className="bar">Home</Link>
           <Link to="/about" className="bar">About me</Link>
           <Link to="/portfolio" className="bar">Portfolio</Link>
-          <Link to="/socials" className="bar">Socials</Link>
           <Link to="/donate" className="bar">Donate me!</Link>
         </div>
       </div>
@@ -30,7 +29,6 @@ export const Navbar = () => {
       <Link to="/" className="bar">Home</Link>
       <Link to="/about" className="bar">About me</Link>
       <Link to="/portfolio" className="bar">Portfolio</Link>
-      <Link to="/socials" className="bar">Socials</Link>
       <Link to="/donate" className="bar">Donate me!</Link>
     <button onClick={toggleLinks}>
       <ReorderIcon/>
