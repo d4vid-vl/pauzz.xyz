@@ -1,0 +1,11 @@
+.donatePage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerDonate {
+  height: 700px;
+  width: auto;
+}
