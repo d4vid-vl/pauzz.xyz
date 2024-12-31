@@ -1,11 +1,11 @@
-.homePage {
+.aboutPage {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
 }
 
-.headerHome {
+.headerAbout {
   height: 700px;
   width: auto;
 }

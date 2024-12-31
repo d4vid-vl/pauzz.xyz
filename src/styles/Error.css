@@ -1,0 +1,25 @@
+.errorPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerError{
+  height: 700px;
+  width: auto;
+}
+
+.headerError h2 {
+  font-size: 50px;
+}
+
+.headerError p {
+  font-size: 20px;
+}
+
+.headerError img {
+  margin: 40px;
+  width: 700px;
+  height: auto;
+}

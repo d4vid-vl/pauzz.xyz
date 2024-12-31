@@ -1,11 +1,11 @@
-.homePage {
+.donatePage {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
 }
 
-.headerHome {
+.headerDonate {
   height: 700px;
   width: auto;
 }
