@@ -17,7 +17,7 @@ export const Footer = () => {
           </a>
         ))}
       </div>
-      <p> &copy; 2024 pauzz.xyz</p>
+      <p> &copy; 2025 pauzz.xyz</p>
     </div>
   )
 }
