@@ -1,8 +1,8 @@
-import pauzz from '../assets/pauzz.png'
-import pangui from '../assets/pangui.png'
-import chan from '../assets/chan.png'
-import doom from '../assets/wip.png'
-import sdltest from '../assets/sdltest.png'
+import pauzz from '../assets/Projects/pauzz.png'
+import pangui from '../assets/Projects/pangui.png'
+import chan from '../assets/Projects/chan.png'
+import doom from '../assets/Projects/wip.png'
+import sdltest from '../assets/Projects/sdltest.png'
 
 export const Projects = [
   {
