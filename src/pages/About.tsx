@@ -12,9 +12,9 @@ function About() {
 
       {/* Intro */}
       <div className="aboutContent">
-        <img src={Maxwell}/>
+        <img src={Maxwell} className="maxwellAbout"/>
         <p className="aboutText">
-        Hey, I'm David, a software engineer student based in Chile 🇨🇱. I'm currently studying at the Pontificia Universidad Católica de Chile. Currently I'm working on myself (mentally and physically), learning a lot of programming languages, making and listening to music, and I'm also interested in complex mathematics! I speak Spanish (Native), English (C1) and Portuguese 🇧🇷 (30/40%).
+        I'm pauze ^-^, a software engineer student based in Chile 🇨🇱. I'm currently studying at the Pontificia Universidad Católica de Chile. I'm working on myself (mentally and physically), learning a lot of programming languages, making and listening to music, and I'm also interested in complex mathematics! I speak Spanish (Native), English (C1) and Portuguese 🇧🇷 (30/40%).
         </p>
         <div className="aboutSocials"> 
           {Social.filter(item => item.name === "Github" || item.name === "Twitter").map((item, index) => (
@@ -66,13 +66,13 @@ function About() {
         <p className="aboutText">
          Normally on my free time, I enjoy making and listening to music, it's a hobby I'm very passionate about and had some projects see the light of day, you can check them out on my Bandcamp pages! Apart from what I said earlier, I enjoy talking about movies and series, some books, and obviously some video games too. Other topics I can talk about are programming, mathematics, and some other stuff like history, sociology, football, etc... I'm a very open-minded person, so feel free to talk to me about anything! 🌟
         </p>
-        <img src={Maxwell}/>
+        <img src={Maxwell} className="maxwellAbout"/>
       </div>
 
       {/*Socials*/}
       <h2 className="aboutHeader">Socials</h2>
       <div className="aboutContent">
-        <img src={Maxwell}/>
+        <img src={Maxwell} className="maxwellAbout2"/>
         <p className="aboutText">
         Apart from the other socials I already linked above, you can text me on Discord or check my Pronouns page! I'm always open to talk to new people and talk about anything, or just to have a good time :)
         </p>
