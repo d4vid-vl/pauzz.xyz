@@ -24,7 +24,7 @@ export const Social = [
   },
   {
     name: "Last.fm",
-    link: "https://last.fm/pauzeql",
+    link: "https://last.fm/user/pauzeql",
     svg: LastfmLogo
   },
   {
