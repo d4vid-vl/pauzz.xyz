@@ -3,9 +3,83 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  background-color: #fefbfe;
 }
 
 .headerDonate {
-  height: 700px;
+  height: auto;
   width: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donateText {
+  max-width: 1000px;
+  margin: 10px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.donateLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.donateCategory {
+  margin: 10px;
+}
+
+.donatePage img {
+  height: auto;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* Individual Donation Styling */
+
+.donateImg {
+  width: 200px;
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #333;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.donateImg:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.donateImg p {
+  margin: 10px;
+}
+
+.donateImg a {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.donateBg div {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }

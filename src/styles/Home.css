@@ -8,4 +8,11 @@
 .headerHome {
   height: 700px;
   width: auto;
+  margin-top: 15px;
+}
+
+.headerHome img {
+  height: auto;
+  width: 200px;
+  margin: 20px;
 }

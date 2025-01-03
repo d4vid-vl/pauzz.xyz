@@ -6,8 +6,9 @@
   align-items: center;
   flex-direction: column;
 }
+
 .portfolioPage .portfolioTitle {
-  font-size: 30px;
+  margin-top: 15px;
 }
 
 .projectsList {
@@ -16,6 +17,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+}
+
+.portfolioPage img {
+  height: auto;
+  width: 200px;
+  margin: 20px;
 }
 
 /* Individual Project Styling */
