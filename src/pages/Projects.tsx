@@ -1,13 +1,13 @@
 import { Project } from '../components/Project'
 import { Projects } from '../helpers/Projects'
 import Maxwell from '../assets/About/maxwell.gif'
-import '../styles/Portfolio.css'
+import '../styles/Projects.css'
 
-function Portfolio() {
+function ProjectsPage() {
   return (
-    <div className="portfolioPage">
-      <h1 className="portfolioTitle">Currently I'm learning a lot of languages and how to code</h1>
-      <h3>Here are some of my projects I've been working on!</h3>
+    <div className="projectsPage">
+      <h1 className="projectsTitle">Currently I'm learning a lot of languages and how to code</h1>
+      <p>Here are some of my projects I've been working on!</p>
       <div className="projectsList">
         {Projects.map((item,key) => {
           return (
@@ -21,4 +21,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio
+export default ProjectsPage
