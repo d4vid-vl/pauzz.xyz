@@ -9,7 +9,7 @@ export const Palestine = [
     link: 'https://arab.org/click-to-help/palestine/'
   },
   {
-    desc: 'Donate food, water and medical supplies',
+    desc: 'Donate food',
     img: OneNationUK,
     link: 'https://onenationuk.org/gazaemergency/'
   },

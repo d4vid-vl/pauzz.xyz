@@ -1,4 +1,4 @@
-.portfolioPage {
+.projectsPage {
   width: 100%;
   height: auto;
   display: flex;
@@ -7,8 +7,9 @@
   flex-direction: column;
 }
 
-.portfolioPage .portfolioTitle {
+.projectsPage .projectsTitle {
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .projectsList {
@@ -19,7 +20,7 @@
   place-items: center;
 }
 
-.portfolioPage img {
+.projectsPage img {
   height: auto;
   width: 200px;
   margin: 20px;
@@ -63,13 +64,13 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  .projectList {
+  .projectsList {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .projectList {
+  .projectsList {
     grid-template-columns: 1fr;
   }
 }

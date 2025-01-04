@@ -3,7 +3,7 @@ import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
-import Portfolio from './pages/Portfolio'
+import ProjectsPage from './pages/Projects'
 import Donate from './pages/Donate'
 import ErrorPage from './pages/Error'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
-            <Route path="/portfolio" element={<Portfolio/>}/>
+            <Route path="/projects" element={<ProjectsPage/>}/>
             <Route path="/donate" element={<Donate/>}/>
             <Route path="*" element={<ErrorPage/>}/>
           </Routes>

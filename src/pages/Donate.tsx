@@ -28,7 +28,7 @@ function Donate() {
         <h2>Personal Donations</h2>
         <p className="donateText">If you want to donate me personally, you can do it via Ko-fi</p>
           <div className='donateKofi'>
-          <iframe id='kofiframe' src='https://ko-fi.com/pauzz/?hidefeed=true&widget=true&embed=true&preview=true' style={{border:'none', width:'100%', padding:'4px'}} height='712' title='pauzz'></iframe>
+          <iframe id='kofiframe' src='https://ko-fi.com/pauzz/?hidefeed=true&widget=true&embed=true&preview=true' style={{border:'none', width:'100%', padding:'4px'}} height='620' title='pauzz'></iframe>
           </div>
         </div>
         <img src={Maxwell}/>
